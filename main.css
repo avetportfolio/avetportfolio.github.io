@@ -39,7 +39,7 @@ html, body{
 	height: 100%;
 	width: 100%;
 	color: black;
-	transition: .9s;
+	transition: 9s;
 	z-index: -1;
 	color: white;
 	
