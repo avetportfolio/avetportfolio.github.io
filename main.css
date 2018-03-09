@@ -1,0 +1,54 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.butt{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+	height: 100px;
+	width: 600px;
+
+}
+
+.avet{
+	text-align: center;
+	text-decoration: none;
+	line-height: 110px;
+	font-family: Arial armenian, sans-serif;
+	font-size: 60px;
+	display: block;
+	border: 2px solid red;
+	height: 100px;
+	color: black;
+	position: absolute;
+	overflow: hidden;
+
+
+}
+
+.avet::before,
+.avet::after {
+	position: absolute;
+	content: '';
+	left: -100%;
+	top: 0%;
+	opacity: .9;
+	background-color: red;
+	height: 100%;
+	width: 100%;
+	color: black;
+	transition: .5s;
+	z-index: -1;
+	color: white;
+	
+
+}
+.avet:hover::before {
+	opacity: .9;
+	left: 0%;
+	color: white;
+	position: absolute;
+	z-index: -1;
+}
