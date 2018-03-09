@@ -32,9 +32,9 @@ html, body{
 .avet::after {
 	position: absolute;
 	content: '';
-	left: 0%;
+	left: -100%;
 	top: 0%;
-	opacity: .0;
+	opacity: .9;
 	background-color: red;
 	height: 100%;
 	width: 100%;
