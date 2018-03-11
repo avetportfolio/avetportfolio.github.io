@@ -27,6 +27,7 @@ html, body{
 	height: 2000px;
 	background-color: #ffffcc;
 	border: 1px solid black;
+	background-repeat: repeat;
 }
 
 .nor{
